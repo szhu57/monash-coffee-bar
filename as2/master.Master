@@ -1,0 +1,89 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master.master.cs" Inherits="as2.master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link href="./css/my-style.css" rel="stylesheet" />
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"> </script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form1" runat="server">
+
+            <div class="row menu-banner">
+                <div>
+                    <h3>COFFEE BAR </h3>
+                </div>
+
+                <div class="nav">
+                    <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" StaticDisplayLevels="2" Orientation="Horizontal"
+                        CssClass="col-md-9">
+                        <StaticMenuItemStyle ForeColor="#777777" Font-Names="sans-serif"
+                            CssClass="staticMenuItemStyle" />
+                        <StaticHoverStyle ForeColor="#FFFFFF" CssClass="" />
+                        <StaticSelectedStyle ForeColor="#FFFFFF" />
+
+                        <DynamicMenuItemStyle CssClass="dynamicMenuItemStyle" />
+                        <DynamicHoverStyle ForeColor="#000000" />
+                        <DynamicMenuStyle CssClass="dynamicMenuStyle" />
+                        <DynamicSelectedStyle ForeColor="#000000" />
+
+                    </asp:Menu>
+                    <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+
+                </div>
+               <%-- <div class="text-right">
+                <asp:Button ID="BtnAbout" runat="server" Text="Login" CssClass="btn btn-sm  btn-info" OnClick="Login_Click" />
+                    </div>--%>
+            </div>
+            <asp:SiteMapPath ID="SiteMapPath1" runat="server" CssClass="col-" Font-Bold="True" Font-Size="Smaller" RenderCurrentNodeAsLink="True">
+                <PathSeparatorTemplate>
+                    -->
+                </PathSeparatorTemplate>
+            </asp:SiteMapPath>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </form>
+    </div>
+    <div class="container footer-sites">
+        <div class="col-md-3 ">
+            <h4>Technology</h4>
+            <ul>
+                <li><a href="//stackoverflow.com">Stack Overflow</a></li>
+                <li><a href="http://v3.bootcss.com/components/#nav">Bootstrap</a></li>
+                <li><a href="http://www.github.com">Github</a></li>
+                <li><a href="http://www.google.com">Google</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h4>University</h4>
+            <ul>
+                <li><a href="http://www.monash.edu/">Monash University</a></li>
+                <li><a href="http://www.southeast.edu">Southeast University</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h4>Developer</h4>
+            <ul>
+                <li><a href="#">Zhu Shuai</a></li>
+                <li><a href="http://www.github.com/szhu57">Github Address</a></li>
+            </ul>
+        </div>
+    </div>
+    <br />
+    <footer>
+        <div class="container">
+            <div class="row glyphicon-copyright-mark">
+                <p class="text-center">
+                    Copyright © 2015 Zhu Shuai Monash University. All Rights Reserved. 
+                        <b><a href="http://users.monash.edu.au/~sgrose/msh/disclaimer.htm" target="_Blank">Monash course disclaimer</a></b>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,83 @@
+﻿body {
+    font-family:'Comic Sans MS','sans-serif';
+    background-color:#e5e5cf
+}
+h3{
+    color:#b200ff;
+}
+.menu-banner{
+    height: 130;
+    background-color: #000;
+
+}
+.nav{
+     font-family:'Comic Sans MS','sans-serif';
+    font-size:15px;
+    font-weight:bold;
+    width:auto;
+}
+.footer-sites{
+    background-color:#000;
+}
+.NavigationMenu {
+    font-family: sans-serif;
+    font-size: 11pt;
+}
+
+.staticMenuItemStyle {
+    color: #91ccbe;
+    margin-top:16px;
+    margin-left:20px;
+}
+
+.staticMenuItemSelectedStyle {
+
+}
+
+.staticHoverStyle {
+
+}
+
+.menuItemSelected {
+    
+}
+
+.menuItem {
+
+}
+
+.dynamicMenuItemStyle {
+    color: #777;
+    background-color: #222;
+    border-color: #080808;
+    padding: 8px;
+}
+
+.background {
+
+}
+
+
+
+#h {
+
+}
+
+#e {
+
+}
+
+
+.menuItemMouseOver {
+
+}
+
+.NavigationMenu a:hover,
+.NavigationMenu a:focus {
+    color: #fff;
+    background-color: #222;
+    border-color: #080808;
+}
+.email{
+    background-color: #ffffcc;
+}

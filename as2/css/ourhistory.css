@@ -1,0 +1,64 @@
+﻿body {
+}
+.main{
+    margin:20px;
+  font-size:40px;
+}
+.main1{
+    margin:10px;
+  
+    height:420px;
+}
+.img1{
+    width:42%; 
+    margin:10px;
+    float:left;
+}
+.text1{
+    width:42%;
+    margin:10px;
+    margin-left:40px;
+    font-style:initial;
+    font-size:16px;
+    float:right;
+}
+.main2{
+    margin:10px;
+    margin-top:30px;
+    height:420px;
+}
+.text2{
+    width:42%;
+    margin:10px;
+    margin-top:50px;
+    font-style:initial;
+    font-size:16px;
+    float:left;
+}
+.img2{
+     width:42%;
+    margin:10px;
+     margin-top:30px;
+     margin-right:30px;
+   height:450px;
+    float:right;
+}
+.main3{
+    margin:10px;
+    height:450px;
+}
+.img3{
+     width:42%;
+    margin:10px;
+    margin-top:60px;
+    height:500px;
+    float:left;
+}
+.text3{
+    width:42%;
+    margin:10px;
+   
+    font-style:initial;
+    font-size:16px;
+    float:right;
+}

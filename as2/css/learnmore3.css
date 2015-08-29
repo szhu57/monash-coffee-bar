@@ -1,0 +1,16 @@
+﻿body {
+}
+.img{
+    margin-bottom:30px;
+    padding:0px;
+   
+    float:left;
+}
+.text{
+    margin-left:80px;
+    margin-top:20px;
+    width:50%;
+    font-style:italic;
+    font-size:18px;
+    float:left;
+}

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/img/ad1.png</ImageUrl>
+    <NavigateUrl>~</NavigateUrl>
+    <AlternateText>Ad for Amarican COffee</AlternateText>
+    <Impressions>100</Impressions>
+    <Height>200</Height>
+    <Width>200</Width>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/img/ad2.png</ImageUrl>
+    <NavigateUrl>~</NavigateUrl>
+    <AlternateText>Ad for cappuccino</AlternateText>
+    <Impressions>50</Impressions>
+    <Height>200</Height>                         
+    <Width>200</Width>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/img/ad3.png</ImageUrl>
+    <NavigateUrl>~</NavigateUrl>
+    <AlternateText>Ad forlatte</AlternateText>
+    <Impressions>50</Impressions>
+    <Height>200</Height>
+    <Width>200</Width>
+  </Ad>
+</Advertisements>

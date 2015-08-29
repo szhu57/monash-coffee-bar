@@ -1,0 +1,52 @@
+﻿body {
+}
+.main{
+    width:80%;
+    margin:auto;
+    font-size:40px;
+}
+.Q1{
+    margin:20px;
+    width:87%;
+    font-family:initial;
+    font-size:19px;
+    height:155px;
+    background-color:#FFFFCC;
+
+}
+.Q2{
+    margin:20px;
+    width:87%;
+    font-family:initial;
+    font-size:19px;
+    height:280px;
+        background-color:#FFFFCC;
+
+}
+.Q3{
+    margin:20px;
+    width:87%;
+    font-family:initial;
+    font-size:19px;
+    height:103px;
+    background-color:#FFFFCC;
+
+}
+.Q4{
+    margin:20px;
+    width:87%;
+    font-family:initial;
+    font-size:19px;
+    height:200px;
+        background-color:#FFFFCC;
+
+}
+.Q5{
+    margin:20px;
+    width:87%;
+    font-family:initial;
+    font-size:19px;
+    height:130px;
+    background-color:#FFFFCC;
+
+}

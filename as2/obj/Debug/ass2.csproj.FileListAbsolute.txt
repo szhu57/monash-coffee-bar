@@ -1,0 +1,6 @@
+D:\NET\as2\bin\as2.dll.config
+D:\NET\as2\bin\as2.dll
+D:\NET\as2\bin\as2.pdb
+D:\NET\as2\obj\Debug\ass2.csprojResolveAssemblyReference.cache
+D:\NET\as2\obj\Debug\as2.dll
+D:\NET\as2\obj\Debug\as2.pdb
