@@ -6,6 +6,12 @@ The front-end UI is implemented by Bootstrap,and Jquery.
 
 ##Function Demonstration 
 
+## GIF show
+
+
+![Coffee bar GIf](/img/show.gif)
+
+
 ###Home page
 
 
