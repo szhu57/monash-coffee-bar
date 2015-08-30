@@ -30,6 +30,22 @@ The front-end UI is implemented by Bootstrap,and Jquery.
 
 ![Coffee bar Sitemap](/img/sitemap.png)
 
+### Calendar Events
+
+![Coffee bar event](/img/event.png)
+
+### Calendar Events
+
+![Coffee bar search](/img/search.png)
+
+### Calendar Events
+
+![Coffee bar dispay_all_customer](/img/display_all.png)
+
+### Calendar Events
+
+![Coffee bar documentation](/img/documentation.png)
+
 ##About athor
 
  * Name: Shuai ZHU
