@@ -34,15 +34,15 @@ The front-end UI is implemented by Bootstrap,and Jquery.
 
 ![Coffee bar event](/img/event.png)
 
-### Calendar Events
+### Search
 
 ![Coffee bar search](/img/search.png)
 
-### Calendar Events
+### Display all customer info
 
 ![Coffee bar dispay_all_customer](/img/display_all.png)
 
-### Calendar Events
+### Document
 
 ![Coffee bar documentation](/img/documentation.png)
 
